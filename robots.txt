@@ -1,0 +1,7 @@
+# FutureMind AI — robots.txt
+# Replace domain when you deploy live
+
+User-agent: *
+Allow: /
+
+Sitemap: https://futuremindai.com/sitemap.xml

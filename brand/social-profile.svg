@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="FutureMind AI profile">
+  <defs>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F7CFF"/>
+      <stop offset="48%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="sg2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#4F7CFF"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#4F7CFF" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#A855F7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#050810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="#050810"/>
+  <circle cx="400" cy="380" r="280" fill="url(#orb)"/>
+
+  <!-- Rounded plate -->
+  <rect x="160" y="140" width="480" height="480" rx="120" fill="#0A0F1C" stroke="url(#sg)" stroke-width="4"/>
+  <rect x="180" y="160" width="440" height="440" rx="108" fill="none" stroke="url(#sg)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Neural accents -->
+  <g opacity="0.5" stroke="url(#sg2)" stroke-width="2" fill="none">
+    <line x1="240" y1="250" x2="300" y2="300"/>
+    <line x1="560" y1="250" x2="500" y2="300"/>
+    <line x1="240" y1="510" x2="300" y2="460"/>
+    <line x1="560" y1="510" x2="500" y2="460"/>
+  </g>
+  <g fill="url(#sg)">
+    <circle cx="240" cy="250" r="5"/>
+    <circle cx="560" cy="250" r="5"/>
+    <circle cx="240" cy="510" r="5"/>
+    <circle cx="560" cy="510" r="5"/>
+  </g>
+
+  <!-- FM monogram -->
+  <g filter="url(#g)" fill="none" stroke="url(#sg)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M280 250 V520" stroke-width="36"/>
+    <path d="M280 250 H430" stroke-width="36"/>
+    <path d="M280 375 H400" stroke-width="28"/>
+    <path d="M400 520 V290 L460 400 L520 290 V520" stroke-width="28"/>
+  </g>
+  <circle cx="400" cy="380" r="14" fill="url(#sg2)" filter="url(#g)"/>
+  <circle cx="400" cy="380" r="6" fill="#FFFFFF"/>
+
+  <!-- Subtle brand initials for profile recognition -->
+  <text x="400" y="700" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="6" fill="url(#sg)">FUTUREMIND AI</text>
+</svg>

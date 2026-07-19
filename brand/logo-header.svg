@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" width="280" height="48" role="img" aria-label="FutureMind AI">
+  <defs>
+    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F7CFF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="hw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7AA2FF"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Compact icon -->
+  <rect x="0" y="2" width="44" height="44" rx="11" fill="#0A0F1C" stroke="url(#hg)" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#hg)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 13 V35" stroke-width="3.2"/>
+    <path d="M13 13 H27" stroke-width="3.2"/>
+    <path d="M13 23 H24" stroke-width="2.6"/>
+    <path d="M24 35 V16 L29 24 L34 16 V35" stroke-width="2.6"/>
+  </g>
+  <circle cx="22" cy="24" r="2" fill="#00D4FF"/>
+
+  <!-- Wordmark -->
+  <text x="56" y="30" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="-0.4" fill="url(#hw)">FutureMind AI</text>
+</svg>
